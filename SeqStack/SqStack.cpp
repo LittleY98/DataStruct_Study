@@ -59,7 +59,7 @@ Status Pop(SqStack &S,SElement &e){
 SElement GetTop(SqStack &S){
     //若栈非空，直接返回栈顶元素
     if(S.top != S.base)
-        return *S.top;
+        return *(S.top-1);
 }
 
 

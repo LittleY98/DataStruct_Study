@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(DataStruct C)
+project(DataStruct)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DataStruct main.c SeqStack/SqStack.h SeqStack/SqStack.cpp LinkStack/LinkStack.h LinkStack/LinkStack.cpp)
+add_executable(DataStruct main.cpp LinkStack/LinkStack.cpp LinkStack/LinkStack.h SeqStack/SqStackDemo.h
+        SeqStack/SqStack.cpp SeqStack/SqStack.h SeqStack/SqStackDemo.cpp)
