@@ -21,6 +21,9 @@ typedef struct StackNode{
 
 
 Status InitStack(LinkStack &S);
+Status Push(LinkStack &S,Element e);
+Status Pop(LinkStack &S,Element &e);
+Element GetTop(LinkStack &S);
 
 
 #endif //DATASTRUCT_LINKSTACK_H
