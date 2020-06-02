@@ -213,7 +213,7 @@ Status Pop(LinkStack &S,Element &e){
 存储结构：
 
 ~~~C++
-typedef struct {
+typedef struct{
     QElemType *base;        //存储空间的基地址
     int front;              //头指针
     int rear;               //尾指针
