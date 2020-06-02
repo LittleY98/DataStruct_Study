@@ -1,10 +1,11 @@
-#include <iostream>
 #include "SeqStack/SqStackDemo.h"
 #include "LinkStack/LinkStackDemo.h"
-
-using namespace std;
+#include "SqQueue/SqQueueDemo.h"
 
 int main() {
     SqStackDemo();
     LinkStackDemo();
+    SqQueueDemo();
+
+    return 0;
 }
